@@ -2,6 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "EEG: Reinforcement Learning in Parkinson's",
+  "description": "This dataset comprises electroencephalography (EEG) recordings from 28 Parkinson's disease patients and 28 matched healthy controls performing a reinforcement learning task with volitional and instructed choice conditions. Parkinson's patients were tested twice within one week under both ON and OFF medication states, while controls participated in a single session. The study investigates neural correlates of reinforcement learning and decision-making in Parkinson's disease, with concurrent accelerometer recordings from the most tremor-affected hand.",
+  "methods_description": "EEG data were collected during a reinforcement learning task adapted from Cavanagh et al. (2014). Participants made volitional and instructed choices in the task. Parkinson's disease patients completed two sessions separated by one week, tested both ON and OFF medication. Control subjects completed a single session. Accelerometer data (X, Y, Z dimensions) were simultaneously recorded from the most tremor-affected hand in Parkinson's patients. Data collection occurred circa 2015 at the Cognitive Rhythms and Computation Lab, University of New Mexico.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -10,61 +12,6 @@
     },
     "Darin Brown": {}
   },
-  "related_identifiers": [
-    {
-      "identifier": "10.18112/openneuro.ds003506.v1.1.0",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
-    },
-    {
-      "identifier": "https://github.com/nemarDatasets/on003506",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on003506",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "10.1016/j.neuron.2014.06.035",
-      "identifier_type": "DOI",
-      "relation_type": "References"
-    },
-    {
-      "identifier": "10.1016/j.cortex.2017.02.021",
-      "identifier_type": "DOI",
-      "relation_type": "IsSupplementedBy"
-    },
-    {
-      "identifier": "10.1016/j.brainres.2019.146541",
-      "identifier_type": "DOI",
-      "relation_type": "IsSupplementedBy"
-    }
-  ],
-  "modalities": [
-    "eeg"
-  ],
-  "resource_type_specific": "EEG Dataset",
-  "sizes": [
-    "0.0 KB (1 files)"
-  ],
-  "formats": [
-    ".JPG",
-    ".bmp",
-    ".fdt",
-    ".gitattributes",
-    ".json",
-    ".m",
-    ".mat",
-    ".md",
-    ".pptx",
-    ".set",
-    ".tsv",
-    ".xlsx"
-  ],
-  "description": "This dataset comprises electroencephalography (EEG) recordings from 28 Parkinson's disease patients and 28 matched healthy controls performing a reinforcement learning task with volitional and instructed choice conditions. Parkinson's patients were tested twice within one week under both ON and OFF medication states, while controls participated in a single session. Three-axis accelerometer data were simultaneously recorded from the most tremor-affected hand. The study investigates neural correlates of reinforcement learning and decision-making in Parkinson's disease.",
-  "methods_description": "EEG data were collected circa 2015 during a reinforcement learning task adapted from Cavanagh et al. (2014). Participants made volitional and instructed choices during the task. Parkinson's disease patients completed two sessions separated by one week, tested both ON and OFF medication. Three-axis accelerometer data (X, Y, Z dimensions) were recorded from the most tremor-affected hand throughout the task. Data collection occurred at the Cognitive Rhythms and Computation Lab at the University of New Mexico.",
   "keywords": [
     {
       "term": "EEG"
@@ -97,8 +44,65 @@
       "term": "instructed choice"
     },
     {
-      "term": "case-control study"
+      "term": "ON/OFF medication comparison"
+    },
+    {
+      "term": "behavioral data"
     }
   ],
-  "source_hash": "3573a4345534583592c18830c748d2229048dcf6ee00e6ae39ae3042472e6f27"
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/nemarDatasets/on003506",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on003506",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.1016/j.neuron.2014.06.035",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "10.1016/j.cortex.2017.02.021",
+      "identifier_type": "DOI",
+      "relation_type": "IsSupplementedBy"
+    },
+    {
+      "identifier": "10.1016/j.brainres.2019.146541",
+      "identifier_type": "DOI",
+      "relation_type": "IsSupplementedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds003506.v1.1.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    }
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "sizes": [
+    "17.4 GB (316 files)"
+  ],
+  "formats": [
+    ".JPG",
+    ".bmp",
+    ".fdt",
+    ".gitattributes",
+    ".json",
+    ".m",
+    ".mat",
+    ".md",
+    ".pptx",
+    ".set",
+    ".tsv",
+    ".xlsx",
+    ".yml"
+  ],
+  "source_hash": "e08398c10869cf675873abe2d9c94fd05aff20039b26bdeadc4d9ceba340b5bc"
 }
