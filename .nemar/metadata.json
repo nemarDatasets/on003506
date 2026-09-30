@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "EEG: Reinforcement Learning in Parkinson's",
-  "description": "This dataset comprises electroencephalography (EEG) recordings from 28 Parkinson's disease patients and 28 matched healthy controls performing a reinforcement learning task with volitional and instructed choice conditions. Parkinson's patients were tested twice within one week under both ON and OFF medication states, while controls participated in a single session. The study investigates neural correlates of reinforcement learning and decision-making in Parkinson's disease, with concurrent accelerometer recordings from the most tremor-affected hand.",
-  "methods_description": "EEG data were collected during a reinforcement learning task adapted from Cavanagh et al. (2014). Participants made volitional and instructed choices in the task. Parkinson's disease patients completed two sessions separated by one week, tested both ON and OFF medication. Control subjects completed a single session. Accelerometer data (X, Y, Z dimensions) were simultaneously recorded from the most tremor-affected hand in Parkinson's patients. Data collection occurred circa 2015 at the Cognitive Rhythms and Computation Lab, University of New Mexico.",
+  "description": "EEG dataset from a reinforcement learning task performed by 28 patients with Parkinson's disease and 28 matched healthy controls. The task included volitional and instructed choices. Patients were tested twice, ON and OFF dopaminergic medication, one week apart, while controls were tested once. Accelerometer data from the most tremor-affected hand were also recorded.",
+  "methods_description": "Participants performed a Matlab-based reinforcement learning task with volitional and instructed choices while EEG was recorded. Parkinson's patients attended two sessions separated by one week, ON or OFF medication; controls attended one session. A triaxial accelerometer (X, Y, Z) was taped to the most tremor-affected hand. Data were collected around 2015 at the Cognitive Rhythms and Computation Lab, University of New Mexico.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -17,47 +17,33 @@
       "term": "EEG"
     },
     {
+      "term": "Parkinson Disease"
+    },
+    {
+      "term": "Reinforcement (Psychology)"
+    },
+    {
       "term": "reinforcement learning"
     },
     {
-      "term": "Parkinson's disease"
-    },
-    {
-      "term": "decision-making"
-    },
-    {
-      "term": "motor control"
+      "term": "dopamine medication"
     },
     {
       "term": "accelerometry"
     },
     {
-      "term": "medication state"
+      "term": "Dopamine"
     },
     {
-      "term": "tremor"
+      "term": "Tremor"
     },
     {
-      "term": "volitional choice"
-    },
-    {
-      "term": "instructed choice"
-    },
-    {
-      "term": "ON/OFF medication comparison"
-    },
-    {
-      "term": "behavioral data"
+      "term": "healthy controls"
     }
   ],
   "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on003506",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on003506",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
     },
@@ -80,6 +66,11 @@
       "identifier": "10.18112/openneuro.ds003506.v1.1.0",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on003506",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "resource_type_specific": "EEG Dataset",
@@ -87,7 +78,7 @@
     "eeg"
   ],
   "sizes": [
-    "17.4 GB (316 files)"
+    "16.20 GB (316 files)"
   ],
   "formats": [
     ".JPG",
